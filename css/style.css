@@ -1,0 +1,303 @@
+/* CSS Document */
+/*----------------------------------------------
+******************* General ********************
+----------------------------------------------*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+#contenedor{
+	padding: 10px 20px;
+	background: #27343F url(../img/fondo.png) no-repeat fixed ;
+}
+
+#superior{
+	background: #000;
+	height: 30px;
+	width: 100%;
+}
+
+#superior #izq{
+	float:left;
+	width:400px;
+	margin-left:75px;
+}
+
+#superior #izq .welcome , #superior #dere{
+	text-transform:uppercase;
+	color:#7D9696;
+	font-family:Arial, sans-serif;
+	font-size:9px;
+	font-weight: bold;
+	line-height: 28px;
+}
+#superior #dere{
+	float:right;
+	margin-right:75px;
+}
+
+#logo{
+	background-image: url(../img/logo.png);
+	height: 70px;
+	width: 270px;
+	margin-left: 50px;
+	margin-top: 30px;
+	float:left;
+}
+
+#busqueda{
+	height: 25px;
+	width: 400px;
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: 55px;
+	float:right;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:9px;	
+}
+
+#busqueda span{
+	color:#1F91A2;
+}
+
+#busqueda a{
+	text-decoration:none;
+	color:#FFF;
+	margin-left:10px;
+}
+
+#busqueda a:hover{
+	text-decoration:underline;
+}
+
+#busqueda input[type="submit"]{
+	background:#D9D8D8 url(../img/search.png) no-repeat;
+}
+
+
+nav {
+	margin:30px 50px 0 50px;
+	width:92%;
+	
+}
+
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+	display:table;
+	overflow:hidden;
+	width:100%;
+	background:#000;
+	position:relative;
+}
+
+nav > ul li {
+	display:table-cell;
+}
+
+/*Sub-menu*/
+
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+
+}
+nav > ul > li > ul{
+	 z-index: 10;
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	
+}
+nav > ul > li > ul > li a {
+	padding-left:29px;
+	padding-right:29px;
+	
+}
+
+
+nav > ul li a {
+	color:#fff;
+	font-family: Ricasso;
+	font-size:10px;
+	display:block;
+	line-height:20px;
+	padding:20px 40px 20px 40px;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+@media screen and (max-width: 1170px) {
+	nav > ul > li a , nav > ul > li > ul > li a { 
+		font-size:9px;
+	}
+}
+
+@media screen and (max-width: 995px) {
+	nav > ul > li a , nav > ul > li > ul > li a{ 
+		font-size:8px;
+		padding:20px 15px;
+	}
+	
+}
+
+
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > a span .fa {
+	display:block;
+	line-height:60px;
+	font-size:20px;
+}
+
+nav > ul > li > a:hover > span {
+	top:0;
+}
+
+/*Colores*/
+
+nav ul li a .primero {
+	background:#0e5061;
+}
+nav ul li a .segundo {
+	background:#5da5a2;
+}
+nav ul li a .tercero {
+	background:#f25724;
+}
+nav ul li a .cuarto {
+	background:#174459;
+}
+nav ul li a .quinto {
+	background:#37a4d9;
+}
+nav ul li a .sexto {
+	background:#2D2F96;
+}
+nav ul li a .septimo {
+	background:#AF2F33;
+}
+
+/**********************/
+
+#slider{
+	height:400px;
+	width: 92%;
+	margin-left: 50px;
+	z-index: 5;
+}
+
+#slider.box_skitter .container_skitter {
+	max-width: 100%; !important;
+}
+
+
+#slider.box_skitter .image a img {
+	max-width: 100% !important;
+}
+
+/*nuevos juegos*/
+
+#nuevos , #jugados{
+	margin:50px 50px 0 50px;
+	width:92%;
+	max-width:100%;
+}
+#jugados h2{
+	margin-top:300px;
+}
+#jugados #newfila1 .cajitas {
+	margin-top:15px;
+}
+
+#nuevos h2 , #jugados h2{
+	color:#FFF;
+	text-transform:uppercase;
+	font-family: Ricasso, Arial, sans-serif;
+	font-size: 30px;
+	padding-bottom:15px;
+}
+
+#nuevos #newfila2  , #jugados #newfila2{
+	margin-top:250px;
+}
+
+#nuevos #newfila1 .cajitas , #nuevos #newfila2 .cajitas ,
+#jugados #newfila1 .cajitas , #jugados #newfila2 .cajitas {
+	float:left;
+	margin-right:75px;
+	text-align:center;
+	height:312px;
+}
+
+#nuevos #newfila1 .cajitas:last-child , #nuevos #newfila2 .cajitas:last-child ,
+#jugados #newfila1 .cajitas:last-child , #jugados #newfila2 .cajitas:last-child{
+	margin-right:0;
+}
+
+#nuevos #newfila1 .cajitas a , #nuevos #newfila2 .cajitas a ,
+#jugados #newfila1 .cajitas a , #jugados #newfila2 .cajitas a {
+	font-family: Ricasso, Arial, sans-serif;
+	text-decoration:underline;
+	font-size: 15px;
+	color:#FFF;
+	line-height: 50px;
+	text-decoration:none;
+
+}
+
+#nuevos #newfila1 .cajitas .nombre:hover , #nuevos #newfila2 .cajitas .nombre:hover ,
+#jugados #newfila1 .cajitas .nombre:hover , #jugados #newfila2 .cajitas .nombre:hover{ 
+	background:#0E5061;
+	padding:5px;
+	border-radius: 5px;
+}
+#nuevos #newfila1 .cajitas a img , #nuevos #newfila2 .cajitas a img ,
+#jugados #newfila1 .cajitas a img , #jugados #newfila2 .cajitas a img{
+	height:450px;
+	width:330px;
+}
+
+
+
+
