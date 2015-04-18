@@ -241,6 +241,57 @@ nav ul li a .septimo {
 	max-width: 100% !important;
 }
 
+/*----------------------------------------------------------
+***************************** TABS *************************
+----------------------------------------------------------*/
+
+#wrapper {
+	width:92%;
+	margin:10px 103px 0 103px;
+	position:relative;
+	font-family:Ricasso;
+
+}
+
+ul.tabs {
+	width:92%;
+	/*background: rgba(87,38,38,0.80);*/
+	list-style: none;
+	height: 40px;
+}
+
+ul.tabs li {
+	float: left;
+	margin-right: 19px;
+	background: #2B2A28;
+	border-radius:10px 0px 20px 0px;
+}
+ul.tabs li a {
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14px;
+	padding: 0px 25px;
+}
+
+ul.tabs li a:hover,
+ul.tabs li.active a,
+ul.tabs li.active a:hover{
+	background: #DEE4E5;
+	color: #2B2A28;
+	border-radius:10px 0px 20px 0px;
+}
+
+ul.tabs li.active a,
+ul.tabs li.active a:hover {
+	border-bottom: 1px solid #DEE4E5;
+	border-top: 4px solid #999;
+	margin-top: -4px;
+}
+
+
 /*nuevos juegos*/
 
 #nuevos , #jugados{
