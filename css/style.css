@@ -132,6 +132,11 @@ nav > ul > li > ul > li a {
 	
 }
 
+@font-face{
+	font-family:Ricasso;
+	src:url(../fonts/Ricasso-Regular.ttf);
+}
+
 
 nav > ul li a {
 	color:#fff;
