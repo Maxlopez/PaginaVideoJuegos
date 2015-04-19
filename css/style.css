@@ -354,6 +354,136 @@ ul.tabs li.active a:hover {
 	width:330px;
 }
 
+/* Plataformas y Juegos*/
+#plataformas-juegos{
+	margin:50px 50px 0 50px;
+	width:92%;
+	max-width:100%;
+}
+
+#plataformas-juegos h2{
+	margin-top:50px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-family: Ricasso, Arial, sans-serif;
+	font-size: 30px;
+	padding-bottom:15px;
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma {
+	margin-top:15px;
+}
+
+#plataformas-juegos #newPlataforma2{
+	margin-top:25px;
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma {
+	float:left;
+	margin-right:30px;
+	/*text-align:center;*/
+	height:210px;
+	width:360px;
+	background:#FFF;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	
+}
+
+#plataformas-juegos #newPlataforma2 .cajitasPlataforma {
+	float:left;
+	margin-right:30px;
+	/*text-align:center;*/
+	height:100px;
+	width:360px;
+	background:#FFF;
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma:last-child , #plataformas-juegos #newPlataforma2 .cajitasPlataforma:last-child{
+	margin-right:0;
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma a , #plataformas-juegos #newPlataforma2 .cajitasPlataforma a{
+	font-family: Ricasso, Arial, sans-serif;
+	text-decoration:underline;
+	font-size: 15px;
+	color:#FFF;
+	line-height: 50px;
+	text-decoration:none;
+
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma a img {
+	margin-top:23px;
+	height:120px;
+	width:190px;
+}
+
+#plataformas-juegos #newPlataforma2 .cajitasPlataforma a img {
+	height:100px;
+	width:200px;
+}
+
+.tituloPlataforma {
+	height:40px;
+	width:360px;
+	background:#9F0;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.tituloPlataforma2 {
+	height:40px;
+	width:360px;
+	background:#FF7417;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.tituloPlataforma3 {
+	height:40px;
+	width:360px;
+	background:#71FFFF;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.info{
+	height:140px;
+	width:140px;
+	
+	float:right;
+	margin:15px 15px;
+}
+
+.precio, .precio1, .precio2{
+	margin:10px 10px;
+}
+
+.precio .monto{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+}
+
+.precio1 .monto1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+}
+
+.precio2 .monto2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+}
+
+.tituloPlataforma h3, .tituloPlataforma2 h3, .tituloPlataforma3 h3{
+	padding:10px 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+
+
+
 
 
 
