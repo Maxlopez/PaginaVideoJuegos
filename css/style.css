@@ -505,25 +505,38 @@ ul.tabs li.active a:hover {
 .tituloPlataforma {
 	height:40px;
 	width:360px;
-	background:#9F0;
+	background: url(../img/bg_center_block1.png);
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
+	position:relative;
 }
 
+
 .tituloPlataforma2 {
+	position:relative;
 	height:40px;
 	width:360px;
-	background:#FF7417;
+	background: url(../img/bg_center_block3.png);
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
 }
 
 .tituloPlataforma3 {
+	position:relative;
 	height:40px;
 	width:360px;
-	background:#71FFFF;
+	background:url(../img/bg_center_block2.png);
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
+}
+
+.tituloPlataforma .adorno , .tituloPlataforma2 .adorno , .tituloPlataforma3 .adorno{
+	position:absolute;
+	background:url(../img/right_3.png);
+	top:0;
+	right:0;
+	width:85px;
+	height:40px;
 }
 
 .info{
