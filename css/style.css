@@ -384,6 +384,7 @@ ul.tabs li.active a:hover {
 	display: block;
 }
 
+
 /*nuevos juegos*/
 
 #nuevos , #jugados{
@@ -464,6 +465,8 @@ ul.tabs li.active a:hover {
 
 #plataformas-juegos #newPlataforma1 .cajitasPlataforma {
 	margin-top:15px;
+	position:relative;
+
 }
 
 #plataformas-juegos #newPlataforma2{
@@ -606,8 +609,14 @@ ul.tabs li.active a:hover {
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:12px;
 	color:#696969;
+	height:30px;
+	padding:1px 10px;
+	line-height:30px;
 	font-weight: bold;
-	
+	position:absolute;
+	border-radius:10px;
+	bottom:-15px;
+	left:125px;
 	
 }
 
