@@ -291,34 +291,32 @@ ul.tabs li.active a:hover {
 	margin-top: -4px;
 }
 
-#tab1{
+.contenido-tab{
 	background:#FCFBFB;
 	margin-top:10px;
 	width:92%;
+	height:250px;
 }
 
-#tab1 .juego{
-
-	margin:20px;
+.juego{
+	margin:10px;
 	position:relative;
 	float:left;
-	margin-right:20px;
-	width:415px;
+	width:330px;
 	margin-bottom:80px;
 }
 
-#tab1 .juego h3{
+.juego h3{
 	font-family:sans-serif;
 	font-size: 14px;
 	color:#2B2A28;
 	line-height:50px;
 	margin-left:10px;
-	width:260px;
 	float:left;
 	height:50px;
 }
 
-#tab1 .juego p {
+.juego p {
 	font-family:Arial;
 	font-size: 13px;
 	color:#7E7E7F;
@@ -330,21 +328,20 @@ ul.tabs li.active a:hover {
 	text-align:justify;
 }
 
-#tab1 .juego .izquierda{
+.juego .izquierda{
 	float:left;
 	position:relative;
 }
 
-#tab1 .juego .izquierda img {
+.juego .izquierda img {
 	width:145px;
-	height:230px;
-	
+	height:230px;	
 }
 
-#tab1 .juego .izquierda .cuadrado {
+.juego .izquierda .cuadrado {
 	position:absolute;
 	font-family:sans-serif;
-	background:#72AAFF;
+	background:rgba(0,83,171,0.82);
 	top:0px;
 	padding:5px;
 	right:0px;
@@ -357,19 +354,36 @@ ul.tabs li.active a:hover {
 	width:60px;
 }
 
-#tab1 .juego a {
+.juego a {
 	font-family:sans-serif;
 	text-decoration:none;
-	height:15px;
+	height:10px;
 	padding:10px;
 	float:left;
-	background:#CF494B;
+	background:rgba(234,104,46,0.82);
 	text-align:center;
-	line-height:15px;
+	line-height:10px;
 	color:#fff;
-
-	border-radius:10px ;
+	margin-left:35px;
+	border-radius:7px ;
 }
+
+.juego a:hover{
+	color:#ED8353;
+	background:rgba(236,196,170,0.83);
+	box-shadow: 
+        inset 0 0 0 2px rgba(234,104,46,0.82);
+    transition: box-shadow 600ms ease-in-out;
+}
+
+.contenido-tab {
+	display: none;
+	
+}
+.contenido-tab.primer-contenido {
+	display: block;
+}
+
 /*nuevos juegos*/
 
 #nuevos , #jugados{
