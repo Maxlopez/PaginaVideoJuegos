@@ -479,6 +479,7 @@ ul.tabs li.active a:hover {
 	background:#FFF;
 	border-top-right-radius:15px;
 	border-top-left-radius:15px;
+	border-bottom: 2px solid #333;
 	
 }
 
@@ -506,9 +507,10 @@ ul.tabs li.active a:hover {
 }
 
 #plataformas-juegos #newPlataforma1 .cajitasPlataforma a img {
-	margin-top:23px;
+	margin-top:16px;
 	height:120px;
 	width:190px;
+	margin-bottom:-5px;
 }
 
 #plataformas-juegos #newPlataforma2 .cajitasPlataforma a img {
@@ -554,36 +556,59 @@ ul.tabs li.active a:hover {
 }
 
 .info{
-	height:140px;
+	height:120px;
 	width:140px;
-	
-	float:right;
-	margin:15px 15px;
+	float:left;
+	margin:15px ;
 }
 
+.name{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	margin:0px 10px;
+}
 .precio, .precio1, .precio2{
 	margin:10px 10px;
 }
 
 .precio .monto{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:24px;
+	font-size:22px;
 }
 
 .precio1 .monto1{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:24px;
+	font-size:22px;
 }
 
 .precio2 .monto2{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:24px;
+	font-size:22px;
 }
 
 .tituloPlataforma h3, .tituloPlataforma2 h3, .tituloPlataforma3 h3{
 	padding:10px 15px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma .info .compra{
+	background:#B0340B;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	padding:10px 40px;
+	border-radius:5px;
+	margin-left:5px;
+}
+
+#plataformas-juegos #newPlataforma1 .cajitasPlataforma .mostrar{
+	background:#FFF;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	color:#696969;
+	font-weight: bold;
+	
+	
 }
 
 
