@@ -1,7 +1,7 @@
 $(document).ready(
 	function(){
 		$("#slider").skitter({
-			animation:'random',	
+			animation:'random',
 			numbers: false,
 			velocity:1,
 			progressbar: false,
@@ -10,7 +10,7 @@ $(document).ready(
 				width:920,
 			}
 		});
-		
+
 		$("ul.tabs li").click(function() {
 			$("ul.tabs li").removeClass("active");
 			$(this).addClass("active");
