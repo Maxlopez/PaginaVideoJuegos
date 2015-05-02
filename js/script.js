@@ -11,7 +11,7 @@ $(document).ready(
 			}
 		});
 
-		
+
 		$("ul.tabs li").click(function() {
 			$("ul.tabs li").removeClass("active");
 			$(this).addClass("active");
@@ -20,35 +20,39 @@ $(document).ready(
 			$(tabActual).fadeIn(1500);
 			return false;
 		});
-		
+
+
 		$("a.mostrar2").click(function() {
-			$("#newPlataforma2 #ver2").show();
-				
+			$("#ver2").show();
+
 			$("#mostrar2").text("Ocultar Contenido");
-			
+
 			Ocultar();
 			return false;
 		});
-		
+
+
+
 		function Mostrar(){
 			$("a.mostrar2").click(function() {
-			$("#newPlataforma2 #ver2").show();
-				
+			$("#ver2").show();
+
 			$("#mostrar2").text("Ocultar Contenido");
-			
+
 			Ocultar();
 			return false;
 			});
 		}
-		
+
 		function Ocultar(){
 			$("a.mostrar2").click(function(){
-				$("#newPlataforma2 #ver2").hide();	
-					
+				$("#ver2").hide();
+
 				$("#mostrar2").text("Mostrar Contenido");
 				Mostrar();
 				return false;
 			});
 		}
+
 	}
 );
